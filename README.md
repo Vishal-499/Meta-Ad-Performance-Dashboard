@@ -9,6 +9,7 @@ A comprehensive Power BI dashboard for analyzing advertising campaign performanc
 
 ## 📋 Table of Contents
 
+- [Project Structure](#project-structure)
 - [Business Objective](#business-objective)
 - [Project Scope](#project-scope)
 - [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
@@ -17,23 +18,6 @@ A comprehensive Power BI dashboard for analyzing advertising campaign performanc
 - [Dashboard Visualizations](#dashboard-visualizations)
 - [Key Insights & Recommendations](#key-insights--recommendations)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-
----
-
-## 📁 Project Structure
-meta-ad-performance-analysis/
-│
-├── Report/
-│   └── Meta Ad Dashboard.pbix
-│
-├── dataset/
-│   ├── ad_events.csv
-│   ├── ads.csv
-│   ├── campaigns.csv
-│   └── users.csv
-│
-└── README.md
 
 ---
 
@@ -217,16 +201,20 @@ The dataset represents **Meta Ads Performance Data** covering campaigns, ads, us
    - `ad_events.user_id` → `users.user_id`
    - `ads.campaign_id` → `campaigns.campaign_id`
 
-3. **Create calculated columns (if not in source data):**
+3. **Create calculated columns :**
    - `day_of_week` = FORMAT([timestamp], "dddd")
    - `time_of_day` = IF(HOUR([timestamp])>=5 AND HOUR([timestamp])<12,"Morning", IF(HOUR([timestamp])>=12 AND HOUR([timestamp])<17,"Afternoon","Evening"))`
    - `duration_days` = campaigns[end_date] - campaigns[start_date]
 
 4. **Build visualizations** following the Dashboard Visualizations section above
 
-5. **Add slicers** for dynamic metric selection and date filtering
-
 ---
+## 🔗 Connect with Me  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/vishal-agarwal-74b7341ab/)  
+
+
+## 💬 Feedback
+I’d love to hear your thoughts and suggestions on this project,feel free if you have any question or suggestion regarding this project. 
 
 
 
