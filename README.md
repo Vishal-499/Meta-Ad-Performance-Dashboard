@@ -4,6 +4,10 @@ A comprehensive Power BI dashboard for analyzing advertising campaign performanc
 
 **Developed by:** Vishal Agarwal  
 
+## 🔗 Dashboard Link
+[![View Dashboard](https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=for-the-badge&logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiODA4NDY0NjEtMDUwYy00NzgzLWFiYzktOGIzMWZjNDU0YjI4IiwidCI6ImZjYjQ1ZGJlLTNhNTktNDg1Zi1hMGEyLTEzZWJhZjI3NDE1YiJ9
+)
+
 
 ---
 
